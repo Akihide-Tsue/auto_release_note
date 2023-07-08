@@ -36,6 +36,7 @@ async function main() {
         emoji: emoji(),
       },
       properties: {
+        // NotionのDBのタイトルも同様に変更してください
         Title: {
           title: [
             {

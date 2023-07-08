@@ -129,7 +129,7 @@ jobs:
       - name: Slack notification
         uses: slackapi/slack-github-action@v1.24.0
         with:
-          channel-id: ${{ secrets.RELEASE_SLACK_CHANNEL }} #チャンネルID
+          channel-id: ${{ secrets.RELEASE_SLACK_CHANNEL }}
           payload: |
             {
               "text": "リリースしました🎉\n${{ github.event.repository.name }}",
