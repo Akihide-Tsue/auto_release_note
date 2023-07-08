@@ -1,5 +1,1 @@
-
-
-`npm install -g pnpm`
-
-pnpm dev
+Zennに説明しています。
