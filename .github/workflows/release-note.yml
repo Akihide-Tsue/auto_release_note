@@ -118,7 +118,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      # releaseNote.ts
+      # releaseNoteを実行
       - name: Generate release note
         run: pnpm run release-note
         env:
