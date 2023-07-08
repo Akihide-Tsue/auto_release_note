@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "release-note": "ts-node --esm ./src/app/api/releaseNote.ts"
+    "release-note": "ts-node ./src/app/api/releaseNote.mjs"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.6",
