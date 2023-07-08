@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release-note": "ts-node --esm ./src/app/api/releaseNote.ts"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.6",
+    "@tryfabric/martian": "^1.2.4",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
